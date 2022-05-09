@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #top{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        img{
+            width: 40px;
+            height: 35px;
+        }
+        #flex{
+            display: flex;
+           gap: 20px;
+           margin-right: -40px;
+        }
+        a{
+            text-decoration:none;
+            color: rgb(65, 58, 58);
+        }
+        #gap{
+            gap: 30px;
+            margin-top: 10px;
+            margin-right: -50px;
+        }
+        #flex>p{
+            margin-top: 5px;
+            font-size: 20px;
+            color: grey;
+        }
+        #top1{
+            margin-left: -100px;
+        }
+        #top2{
+            width: 70%;
+            height: 700px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+            margin: auto;
+            display: flex;
+            margin-top: 20px;
+            border-left: none;
+        }
+        #cont1{
+            width: 55%;
+            height: 650px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        }
+        #cont2{
+            width: 45%;
+            height: 650px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        }
+        #first{
+            width: 95%;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            gap: 150px;
+        }
+        #first>button{
+            width: 130px;
+            height: 32px;
+            margin-top: 10px;
+            border:1px solid red;
+            background-color: white;
+            color: red;
+            border-radius: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #second{
+            width: 95%;
+            height: 120px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 10px;
+            line-height: 20px;
+        }
+        #third{
+            width: 95%;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        #forth{
+            width: 95%;
+            height: 400px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 10px;
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 100px 100px 100px;
+            column-gap: 60px;
+            row-gap: 15px;
+            overflow: scroll;
+        }
+        #fifth{
+            width: 95%;
+            height: 30px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        #top3{
+            width: 70%;
+            height: 800px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+        #sixth{
+            width: 95%;
+            height: 35px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 20px;
+            color: grey;
+            letter-spacing: -0.4px;
+            margin-left: 10px;
+        }
+        #sixth>p{
+            margin-top: 9px;
+        }
+        #seventh{
+            width: 95%;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 12px;
+            display: flex;
+            gap: 5px;
+        }
+        #seventh>input{
+            width: 15px;
+            height: 15px;
+            margin-top: 18px;
+        }
+        #eightth{
+            width: 95%;
+            height: 440px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #top3>h3{
+            margin-left: 20px;
+            color: rgb(63, 56, 56);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #avail{
+            display: flex;
+        }
+        #avail>img{
+            margin-top: 10px;
+        }
+        #min{
+            font-size: 14px;
+            color: grey;
+            margin-left: 25px;
+            line-height: 20px;
+        }
+        #min>h3{
+            color: red;
+            margin-top: -10px;
+        }
+        #min>p{
+            margin-top: -10px;
+            letter-spacing: -0.4px;
+        }
+        #third>div>input{
+            margin-top: 15px;
+            width: 20px;
+            height: 20px;
+        }
+        #third>div{
+            display: flex;
+            gap: 6px;
+        }
+        #third>div>p{
+            margin-top: 15px;
+        }
+        #third>div>button~button{
+            width: 145px;
+            height: 25px;
+            border: 1px solid grey;
+            background-color: rgb(5, 186, 192);
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        #botti{
+            border: none;
+            background-color: aqua;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        #third>div>button{
+            width: 60px;
+            height: 25px;
+            margin-top: 15px;
+        }
+        #third>div>div{
+            width: 1px ;
+            height: 30px;
+            background-color:  grey;
+            margin-top: 15px;
+
+        }
+        #fifth>div{
+            display: flex;
+            justify-content: space-between;
+        }
+        #fifth>div>p:after {
+            content: ' \003E';
+            margin-left: 280px;
+        }
+        #fifth>div>p::before {
+        content: ' \25AF';
+    }
+   .im{
+       width: 180px;
+       height: 300px;
+       box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+       margin-top: 20px;
+   }
+  .fle{
+      display: flex;
+  }
+  .im>img{
+      width: 100%;
+      height: 60%;
+  }
+  .im>h4{
+      letter-spacing: -1px;
+      margin-top: 1px;
+      text-align: center;
+      color: rgb(78, 67, 67);
+
+  }
+  .im>p{
+      margin-left: 10px;
+      margin-top: -9px;
+      color: grey;
+      display: flex;
+  }
+  .im>h5{
+      text-align: center;
+      color: red;
+      margin-top: 5px;
+  }
+  .some{
+      display: flex;
+      justify-content: space-around;
+  }
+  .some>p{
+      margin-top: -8px;
+  }
+  .some>p~p{
+      text-decoration: line-through;
+      color: grey;
+  }
+  .some>a{
+      margin-top: -7px;
+      color: red;
+  }
+  #bottom{
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-between;
+
+  }
+  #bottom>div>img{
+      width: 40px;
+      height: 30px;
+      margin-left: 5px;
+  }
+  #bottom>div>p{
+      margin-top: -1px;
+  }
+  #hahaha{
+      display: flex;
+      gap: 20px;
+  }
+  .abc{
+      width: 40px;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 12px;
+      text-align: center;
+  }
+  #abc{
+    width: 165px;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 12px;
+
+  }
+  #hahaha>div~div~div{
+      width: 50px;
+  }
+  #hahaha>div>p{
+      margin-top: 4px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #round{
+      display: flex;
+      gap: 20px;
+  }
+  #round>div{
+      width: 50px;
+      height: 30px;
+      border: 1px solid rgb(172, 163, 163);
+      border-radius: 15px ;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      color: rgb(94, 81, 81);
+      font-size: 20px;
+
+  }
+  #eightth>a{
+      color: rgb(218, 44, 44);
+      margin-left: 10px;
+  }
+  #place{
+      width: 350px;
+      height: 120px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+      margin: auto;
+      margin-top: 20px;
+  }
+  #place>p{
+      color: grey;
+  }
+  #place>div{
+      display: flex;
+      justify-content: space-between;
+  }
+  #place>div>button{
+      width: 80px;
+      height: 25px;
+      color: rgb(241, 36, 36);
+      border: 1px solid grey;
+      background-color: aliceblue;
+      margin-top: -3px;
+      border-radius: 15px;
+  }
+  #place>div>h4{
+      margin-top: -1px;
+      color: grey;
+  }
+  #place>p>a{
+      color: rgb(223, 27, 27);
+  }
+  #other{
+     font-size: 26px;
+     letter-spacing: 9px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(201, 40, 40);
+     color: white;
+  }
+  #other>a{
+      color: white;
+  }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div id="top1">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div id="gap">
+            <a href="">BAG  ---------</a>
+            <a href="">ADDRESS  ---------</a>
+            <a href="">PAYMENT</a>
+        </div>
+        <div id="flex">
+            <img src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png" alt="">
+            <p>100 % Secure </p>
+        </div>
+    </div>
+    <div id="top2">
+            <div id="cont1">
+                   <div id="first">
+                            <p>Check delivery time & services</p>
+                            <button>ENTER PIN CODE</button>
+                   </div>
+                   <div id="second">
+                            <div id="avail">
+                                <img src="https://w7.pngwing.com/pngs/67/521/png-transparent-computer-icons-offers-text-logo-discount.png" alt="">
+                                <p>Available Offer</p>
+                            </div>
+                            <div id="min">
+                                <p>10 % Instant Discount On IDFC FIRST Bank Cards on a min spend of Rs 2,500 TCA</p>
+                                <h3>Show More ^</h3>
+                            </div>
+                   </div>
+                   <div id="third">
+                         <div>
+                             <input type="checkbox" name="" id="">
+                             <p id="result"></p>
+                         </div>
+                         
+                         <div>
+                             <button id="botti"> </button>
+                             <div></div>
+                             <button > <a href="/Myntra-Clone/tshirts.html">Add More Items</a> </button>
+                         </div>
+                   </div>
+                   <div id="forth">
+                  
+                   </div>
+                   <!-- <div id="fifth">
+                           <div>
+                               <p>Add More From Wishlist</p>
+                           </div>
+                   </div> -->
+            </div>
+            <div id="cont2">
+                    <div id="sixth">
+                          <p>DONATE FOR COVID-19 RELIEF</p>
+                    </div>
+                    <div id="seventh">
+                            <input type="checkbox" name="" id="">
+                            <p>Help India Fight COVID-19</p>
+                    </div>
+                   <div id="eightth">
+                            <div id="round">
+                                <div>₹50</div>
+                                <div>₹100</div>
+                                <div>₹150</div>
+                                <div>₹200</div>
+                            </div>
+                            <a href="">Know More</a>
+                            <div id="place">
+                                <p>COUPONS</p>
+                               <div>
+                                   <h4>Apply Coupons</h4>
+                                   <button>APPLY</button>
+                               </div>
+                               <p><a href="">Login</a> to see best coupons for you</p>
+                            </div>
+                            <div id="end">
+                                   
+                            </div>
+                            <button id="other"><a href="payment.html">PLACE ORDER</a></button>
+                   </div>
+            </div>
+    </div>
+    <div id="top3">
+        <h3>You may also like:-</h3>
+      <div id="hahaha">
+        <div class="abc">
+              <p>All</p>
+        </div>
+        <div id="abc">
+            <p>Shaving Brush & Rozer</p>
+        </div>
+        <div class="abc">
+            <p>Belts</p>
+        </div>
+        <div class="abc">
+              <p>Gloves</p>
+        </div>
+
+      </div>
+        <div class="fle">
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/17486136/2022/3/11/5a16457c-4217-4bda-ae41-29437391756c1647005103327GONUTSBYBEWAKOOFWomenBeigeLipCare1.jpg" alt="">
+                  <h4>GONUTS BY BEWOKE....</h4>
+                  <p>Women Lip Care</p>
+                    <div class="some">
+                        <p>₹234</p>
+                        <p>₹234</p>
+                        <a href="">(30% Off)</a>
+                    </div>
+                  <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/16232976/2021/11/24/0bcf7bc4-79a9-493e-b602-07067233bb901637775731271Sandals1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/17218042/2022/2/18/bd0575e3-3a64-41c9-92de-157cecb46d9c1645194215672BodyCupidBeautifulRoseBodyMist-100ml1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/productimage/2021/1/21/439c61c8-8748-40bd-ab51-bc03a97f860e1611235782917-1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/15838686/2021/10/18/cb952d32-dd74-4904-a1c8-c17dda5fa91e1634547582499AllenCooperPackOf3SolidCottonAnkle-LengthSocks1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+        </div>
+        <div class="fle">
+            <div class="im">
+                    <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/17218100/2022/2/18/ce3563c6-0550-4105-b7e7-fc15b6d7b19f1645190061304BodyCupidLavenderBodyMist-100ml1.jpg" alt="">
+                    <h4>GONUTS BY BEWOKE....</h4>
+                    <p>Women Lip Care</p>
+                      <div class="some">
+                          <p>₹234</p>
+                          <p>₹234</p>
+                          <a href="">(30% Off)</a>
+                      </div>
+                    <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/16266706/2021/11/26/c3d20aed-d93b-4e8e-9cdb-ccd135a684671637945354042ForeverGlambyPantaloonsWomenPinkYellowStripedTravelPouch1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/16839160/2022/1/15/2a657fbf-439c-444a-a3ef-ec992d1169ee1642186227653FeroshWomenMulti1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+            <div class="im">
+                <img src="https://assets.myntassets.com/q_95,w_172,c_limit,f_webp,fl_progressive/assets/images/17158940/2022/2/15/f3b972bc-a1c1-4550-8518-ba47b437ca391644922247248Belts1.jpg" alt="">
+                <h4>GONUTS BY BEWOKE....</h4>
+                <p>Women Lip Care</p>
+                  <div class="some">
+                      <p>₹234</p>
+                      <p>₹234</p>
+                      <a href="">(30% Off)</a>
+                  </div>
+                <h5>ADD TO BAG</h5>
+            </div>
+        </div>
+
+        <div id="bottom">
+                 <div>
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png" alt="">
+                    <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png" alt="">
+                 </div>
+                 <div>
+                     <p>Need help ? Contact Us</p>
+                 </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="/Myntra-Clone/src/cart.js" type="module"></script>

@@ -1,0 +1,62 @@
+#log1{
+    padding-top: 65px;
+
+       
+
+    width: 30%;
+    height: 700px;
+    margin-top: 210px;
+
+    
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+#log1>img{
+    width: 100%;
+}
+body{
+    background-color: rgb(180, 160, 174);
+}
+#user{
+    width: 328px;
+    height: 37px;
+    margin-top: 20px;
+    border: 1.3px solid black;
+    font-size: 15px;
+    
+}
+#log1>a>button{
+    width: 335px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    border: 0px;
+    margin-top: 15px;
+    font-size: large;
+    
+    color: aliceblue;
+    font-weight: bold;
+
+
+}
+#log1>p>a{
+    color: red;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#log1>h1{
+    padding-right: 100px;
+}
+#log1>p{
+    padding-right: 100px;
+    padding-top: 20px;
+
+}
+#pp{
+    padding-left: 60px;
+    padding-top: 20px;
+
+}
+
+    

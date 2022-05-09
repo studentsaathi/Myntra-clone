@@ -1,0 +1,135 @@
+#append_ad
+{
+    margin-top: 30px;
+    width: 1299px;
+    height: 341px;
+}
+
+.heading_top
+{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#favourite_brands
+{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;
+}
+
+#favourite_brands>div>img{
+    width: 147px;
+    height: 153px;
+}
+
+#top_picks
+{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;  
+}
+
+#top_picks>div>img{
+    width: 121px;
+    height: 87px; 
+}
+
+#iconic_brands
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;  
+}
+#iconic_brands>div>img
+{
+    width: 267px;
+    height: 314px;  
+}
+#fasion_and_essentials
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;   
+}
+#fasion_and_essentials>div>img{
+    width: 264;
+    height: 350px;
+}
+
+#explore_more
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;  
+}
+
+#explore_more>div>img{
+    width: 660px;
+    height: 781px;
+}
+#the_kids_space
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px; 
+}
+
+#the_kids_space>div>img
+{
+    width: 660px;
+    height: 444px; 
+}
+
+#budget_buy
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;   
+}
+#budget_buy>div>img
+{
+    width: 220px;
+    height: 225px;
+}
+#shop_more_brands
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;  
+}
+#shop_more_brands>div>img
+{
+  width:264px;
+  height: 308px;
+}

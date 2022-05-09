@@ -1,0 +1,142 @@
+#append_ad
+{
+    margin-top: 80px;
+    width: 1299px;
+    height: 341px;
+}
+
+.heading_top
+{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#biggest_deals_on_top_brands
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;
+}
+
+#biggest_deals_on_top_brands>div>img
+{
+    width: 222px;
+    height: 361px;
+
+}
+#categories_to_bag
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;  
+}
+#categories_to_bag>div>img{
+    width: 180px;
+    height: 216px;
+}
+
+#explore_top_brands
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px;   
+}
+
+#explore_top_brands>div>img
+{
+    width:222px ;
+    height: 340px;
+}
+#trending_in_westren_wear
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px
+}
+
+#trending_in_westren_wear>div>img
+{
+    width:222px ;
+    height: 291px; 
+}
+#trending_in_indian_wear
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px
+}
+
+#trending_in_indian_wear>div>img
+{
+    width:222px ;
+    height: 291px; 
+}
+
+#trending_in_sports_wear
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px
+}
+
+#trending_in_sports_wear>div>img
+{
+    width:222px ;
+    height: 291px; 
+}
+
+#trending_in_footwear
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px
+}
+
+#trending_in_footwear>div>img
+{
+    width:222px ;
+    height: 291px; 
+}
+
+#trending_in_accessories
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0px
+}
+
+#trending_in_accessories>div>img
+{
+    width:222px ;
+    height: 291px; 
+}

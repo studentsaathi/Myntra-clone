@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(248, 193, 232, 0.856);
+}
+    #o{
+        width: 30%;
+     height: 700px;
+     padding-top:  70px;
+
+    
+     
+     margin: auto;
+     background-color: rgb(255, 255, 255);
+}
+#o>img{
+    height: 100px;
+    width: 100px;
+    
+    padding-left: 75px;
+    padding-top: 80px;
+
+
+
+
+}
+#otp_div{
+    height: 70px;
+    width: 70%;
+    margin: auto;
+
+    
+    
+    
+
+
+    
+    display: flex;
+
+}
+#input1{
+    width: 50PX;
+    height: 50px;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+
+
+}
+#o>h1{
+    padding-left: 75px;
+    color: rgb(58, 56, 56);
+}
+#o>p{
+    padding-left: 75px;
+    padding-top: 20px;
+
+
+}
+a{
+    color: rgb(255, 0, 0);
+    font-size: large;
+    text-decoration: none;
+}
+#gohome{
+    height: 35px;
+    width: 67%;
+    border: 1px solid black;
+    margin-left:78px;
+
+    
+    color:rgb(243, 234, 234);
+    background-color: white;
+}
